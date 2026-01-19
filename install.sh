@@ -24,6 +24,9 @@ sudo apt install brave-browser
 echo "Instalando .NET SDK..."
 sudo apt install -y dotnet-sdk-8.0
 
+# Git install
+sudo apt install git
+
 # 3. Diseño y Productividad (Inkscape, GIMP, QElectroTech, LibreOffice)
 echo "Instalando herramientas de diseño y ofimática..."
 sudo apt install -y inkscape gimp qelectrotech libreoffice libreoffice-l10n-es
