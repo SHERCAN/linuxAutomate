@@ -24,6 +24,9 @@ sudo apt install brave-browser
 echo "Instalando .NET SDK..."
 sudo apt install -y dotnet-sdk-8.0
 
+#postman
+sudo snap install postman
+
 # Git install
 sudo apt install git
 
