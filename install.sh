@@ -74,6 +74,15 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 sudo usermod -aG docker $USER
 newgrp docker
 
+#Node js
+curl -o- https://fnm.vercel.app/install | bash
+fnm install 24
+node -v
+npm -v
+
+#RUST
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+
 # Limpieza
 sudo apt autoremove -y
 echo "Instalación completada. Es recomendable REINICIAR para aplicar cambios en KVM y Drivers."
