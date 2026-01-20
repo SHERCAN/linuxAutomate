@@ -83,6 +83,9 @@ npm -v
 #RUST
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 
+#Telegram
+sudo snap install telegram-desktop
+
 # Limpieza
 sudo apt autoremove -y
 echo "Instalación completada. Es recomendable REINICIAR para aplicar cambios en KVM y Drivers."
